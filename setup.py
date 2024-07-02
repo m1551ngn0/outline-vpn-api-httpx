@@ -14,5 +14,5 @@ setup(
     description="Python API wrapper for Outline VPN",
     long_description=open("README.md", "r").read(),  # pylint: disable=R1732
     long_description_content_type="text/markdown",
-    install_requires=("requests",),
+    install_requires=("httpx",),
 )
